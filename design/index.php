@@ -7,19 +7,10 @@
       $specail_tag = '';                               #Define special tag for page
       get_header($title,$desc,$keyword,$specail_tag);  #function get_header(Title , Desc , Keyword and Specail_tag);
 ?>
-<h2>ตัวอย่างเมนูย่อยโสเหล่</h2>
-<div class="w3-row">
-  <div class="w3-col s12 m6 l12">
-      <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#">รวมกระทู้</a></div>
-      <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >เว่านัวหัวม่วน</a></div>
-      <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >ข่าวสารบ้านเฮา</a></div>
-      <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >ตลาดซื้อขาย</a></div>
-      <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >กฎและกติกา</a></div>
-      <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >แท็ก</a></div>
-  </div>
-</div>
+<h3 class="w3-large"> <i class="fa fa-comments-o"></i> หน้ารวมกระทู้</h3>
+เนื้อหา
 <?php
   #<!-- End of your content-->
-  get_sidebar(''); //Show side bar  ==> user , dic , wiki , topic etc. (Define in ../includes/main-config.php)
+  get_sidebar('topic'); //Show side bar  ==> user , dic , wiki , topic etc. (Define in ../includes/main-config.php)
   get_footer(); //Show footer //
 ?>
