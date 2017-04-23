@@ -8,7 +8,14 @@
       get_header($title,$desc,$keyword,$specail_tag);  #function get_header(Title , Desc , Keyword and Specail_tag);
 ?>
 <h3 class="w3-large"> <i class="fa fa-comments-o"></i> หน้ารวมกระทู้</h3>
-เนื้อหา
+เนื้อหา<br>
+เนื้อหา<br>
+เนื้อหา<br>
+เนื้อหา<br>
+เนื้อหา<br>
+เนื้อหา<br>
+เนื้อหา<br>
+เนื้อหา<br>
 <?php
   #<!-- End of your content-->
   get_sidebar('topic'); //Show side bar  ==> user , dic , wiki , topic etc. (Define in ../includes/main-config.php)
