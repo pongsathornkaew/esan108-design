@@ -7,6 +7,9 @@
       $specail_tag = '';                               #Define special tag for page
       get_header($title,$desc,$keyword,$specail_tag);  #function get_header(Title , Desc , Keyword and Specail_tag);
 ?>
+<div class="w3-light-grey">
+<h1 class="w3-xlarge w3-text-brown">เมษานี้ ขอนแก่นจัดเทศกาลโคมไฟไดโนเสาร์ ร่ายยาวไปจนถึง พฤษภาคม</h2>
+</div>
 <div class="w3-card-2">
   <header class="w3-container w3-light-grey">
     <h1 class="w3-xlarge w3-text-brown">เมษานี้ ขอนแก่นจัดเทศกาลโคมไฟไดโนเสาร์ ร่ายยาวไปจนถึง พฤษภาคม</h2>
@@ -35,6 +38,6 @@
 
 <?php
   #<!-- End of your content-->
-  get_sidebar('dic'); //Show side bar  ==> user , dic , wiki , topic etc. (Define in ../includes/main-config.php)
+  get_sidebar('topic'); //Show side bar  ==> user , dic , wiki , topic etc. (Define in ../includes/main-config.php)
   get_footer(); //Show footer //
 ?>

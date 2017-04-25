@@ -1,7 +1,6 @@
 <?php ##### side bar for topic #### ?>
 </article>
 <aside class="w3-col s12 m12 l3 w3-left" >
-  <div class="w3-row">
     <!--Side bar old version (not used)
     <div class="w3-col s12 m6 l12">
       <p><a href="https://www.facebook.com/Esan1O8/" class="w3-large"><i class="fa fa-facebook-official w3-xlarge w3-text-blue" aria-hidden="true"></i> &nbsp;แฟนเพจอีสานร้อยแปด</a></p>
@@ -12,13 +11,14 @@
       <p><a href="http://feeds.feedburner.com/esan108" class="w3-large"><i class="fa fa-feed w3-xlarge w3-text-orange" aria-hidden="true"></i> &nbsp;ฟีดอีสานร้อยแปด</a></p>
     </div>
     -->
-    <div class="w3-col s12 m6 l12">
-        <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding "><a href="#">รวมกระทู้</a></div>
-        <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >เว่านัวหัวม่วน</a></div>
-        <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >ข่าวสารบ้านเฮา</a></div>
-        <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >ตลาดซื้อขาย</a></div>
-        <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >กฎและกติกา</a></div>
-        <div class="w3-button w3-round w3-white w3-hover-red w3-margin-right w3-padding w3-hover-text-white"><a href="#" >แท็ก</a></div>
+    <div class="w3-row">
+      <div class="w3-col s12 m6 l12 w3-padding-right">
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-bottom w3-hover-border-red"><a href="#" class="w3-large"><i class="fa fa-external-link-square w3-large w3-text-blue" aria-hidden="true"></i> &nbsp;รวมกระทู้</a></p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-bottom w3-hover-border-red"><a href="#" class="w3-large"><i class="fa fa-external-link-square w3-large w3-text-blue" aria-hidden="true"></i> &nbsp;เว่านัวหัวม่วน</a></p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-bottom w3-hover-border-red"><a href="#" class="w3-large"><i class="fa fa-external-link-square w3-large w3-text-blue" aria-hidden="true"></i> &nbsp;ข่าวสารบ้านเฮา</a></p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-bottom w3-hover-border-red"><a href="#" class="w3-large"><i class="fa fa-external-link-square w3-large w3-text-blue" aria-hidden="true"></i> &nbsp;ตลาดซื้อขาย</a></p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-bottom w3-hover-border-red"><a href="#" class="w3-large"><i class="fa fa-external-link-square w3-large w3-text-blue" aria-hidden="true"></i> &nbsp;กฎและกติกา</a></p>
+        <p class="w3-border-bottom w3-border-light-grey w3-padding-bottom w3-hover-border-red"><a href="#" class="w3-large"><i class="fa fa-external-link-square w3-large w3-text-blue" aria-hidden="true"></i> &nbsp;แท็ก</a></p>
+      </div>
     </div>
-  </div>
 </aside>
